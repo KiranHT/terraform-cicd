@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "rg" {
-  name     = "testing-rg"
-  location = "Central India"
+  name     = var.rgname
+  location = var.location
 }
 
 resource "azurerm_virtual_network" "vn" {
