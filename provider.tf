@@ -9,7 +9,7 @@ terraform {
       resource_group_name  = "Jenkins-POC"
       storage_account_name = "terraformstorageacc"
       container_name       = "terraform-statefile"
-      key                  = "x5HDw4arhS7snYmH03OfKlNQoDRMbSACjhmIvzJ/s3HM/FOCAYEo4jL3CthX6QU1KrlMvLNudDSA+AStwQM1JQ=="
+      key                  = "terraform.tfstate"
   }
 }
 
